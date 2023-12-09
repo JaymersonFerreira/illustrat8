@@ -1,0 +1,232 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype') url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background: #6969699c;
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+
+}
+.foto{
+    
+    text-align: center;
+}
+#imgFoto {
+    width: 250px;
+
+    height: 250px;
+
+    border-radius: 90px;
+
+    margin-bottom: 20px;
+  }
+
+
+.espaco_botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin: auto 5%;
+
+    color: white;
+
+}
+
+
+.content h1 {
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+ .content {
+    margin: auto 5%;
+
+    color: white;
+
+}
+
+ form {
+    width: 80%;
+    max-width: 600px;
+
+    margin: 0 auto 15%;
+
+    display: block;
+    /* grid-template-columns: 1fr 1fr; */
+
+    gap: 20px;
+
+    border-radius: 8px;
+    border: 3px solid #ffffff40;
+    padding: 20px;
+
+
+    justify-items:center;
+}
+
+.button {
+    background-color: #006699;
+    color: white;
+
+    margin-top: 20px;
+
+    width: 40%;
+    height: 40px;
+
+    font-size: 19px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    transition: 469ms;
+
+}
+
+
+.button:hover {
+    color: white;
+    text-decoration: none;
+
+    font-size: 20px;
+
+    transition: 469ms;
+}
+
+
+
+/* .content form div:nth-child(1),
+.content form div:nth-child(5) {
+    grid-column: span 2;
+} */
+
+form input {
+    width: 100%;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    border-radius: 8px;
+    border: 3px solid #ffffff40;
+
+    outline: none;
+    font-size: 16px;
+}
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+
+
+form button {
+    background: #006699;
+    color: white;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    width: 100px;
+    height: 50px;
+
+    border-radius: 8px;
+    border: 0;
+
+    
+
+    margin-top: 32px;
+
+    transition: 469ms;
+
+
+}
+
+form button:hover {
+    background: #006699e1;
+    box-shadow: 0px 8px 16px #00669929;
+
+
+    color: white;
+
+    font-size: 20px;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: 469ms;
+
+}
+
+form a.voltar {
+
+    width: 40%;
+    height: 40px;
+    background-color: #fff2;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    align-self: end;
+
+    text-decoration: none;
+
+    transition: 469ms;
+}
+
+form a.voltar:hover {
+    background: #a96060f7;
+    box-shadow: 0px 8px 16px #a9606029;
+
+    color: #ffffff;
+
+    font-size: 19px;
+    text-decoration: none;
+
+    transition: 469ms;
+}
+
+form div.espaco_botao a.a {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    justify-items: center;
+    justify-content: center;
+
+    transition: 469ms;
+
+}
+
+form div.espaco_botao a.a:hover {
+    font-size: 14.5px;
+
+    text-decoration: underline;
+
+    transition: 469ms;
+}

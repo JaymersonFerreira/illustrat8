@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype') url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    background: #e0e0e0;
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+.espaco_botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+#modal .content h1 {
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+#modal {
+    background: #6969699c;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+
+    transition: 469ms;
+}
+
+#modal .content {
+    margin: auto 5%;
+
+    color: white;
+}
+
+#modal form {
+    width: 80%;
+    max-width: 500px;
+
+    margin: 0 auto 15%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+    border-radius: 8px;
+    border: 3px solid #ffffff40;
+    padding: 20px;
+}
+
+
+.content form div:nth-child(1),
+.content form div:nth-child(4),
+.content form div:nth-child(5),
+
+.content form div:nth-child(8) {
+    grid-column: span 2;
+}
+
+form input {
+    width: 100%;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+
+    outline: none;
+    font-size: 16px;
+}
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+form button {
+    background: #006699;
+    color: white;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    width: 40%;
+    height: 40px;
+
+    border-radius: 8px;
+    border: 0;
+
+    cursor: pointer;
+    margin-top: 32px;
+
+    transition: 469ms;
+
+
+}
+
+form button:hover {
+    background: #006699e1;
+    box-shadow: 0px 8px 16px #00669929;
+
+
+    color: white;
+
+    font-size: 19px;
+    text-decoration: none;
+    transition: 469ms;
+
+}
+
+
+form a.voltar {
+
+    width: 40%;
+    height: 40px;
+    background-color: #fff2;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    align-self: end;
+
+    text-decoration: none;
+
+    transition: 469ms;
+}
+
+form a.voltar:hover {
+    background: #a96060f7;
+    box-shadow: 0px 8px 16px #a9606029;
+
+    color: #ffffff;
+
+    font-size: 19px;
+    text-decoration: none;
+
+    transition: 469ms;
+
+}
+
+select{
+    text-align: center;
+}
